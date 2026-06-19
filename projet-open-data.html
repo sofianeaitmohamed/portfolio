@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projet personnel d'analyse de donnees de mobilite en open data." />
+  <title>Projet Open Data Mobilite | Sofiane AIT MOHAMED</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light-theme project-detail-page">
+  <div class="bg-noise" aria-hidden="true"></div>
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Activer le theme sombre">&#x1F319;</button>
+  <header class="site-header">
+    <a class="brand brand-logo" href="index.html" aria-label="Accueil - SAM"><span class="brand-mark">SAM</span><span class="brand-orbit" aria-hidden="true"></span></a>
+    <nav aria-label="Navigation principale">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="index.html">Accueil</a></li>
+        <li><a class="nav-link" href="about.html">&Agrave; propos</a></li>
+        <li><a class="nav-link" href="formation.html">Formation</a></li>
+        <li><a class="nav-link" href="skills.html">Comp&eacute;tences</a></li>
+        <li><a class="nav-link active" href="projets.html" aria-current="page">Projets</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="section project-detail">
+    <p class="project-kicker">Projet personnel</p>
+    <h1>Analyse Open Data Mobilit&eacute;</h1>
+    <p class="project-lead">
+      Exploration de jeux de donn&eacute;es de transport pour identifier les zones et horaires de surcharge, puis proposer des pistes d&apos;am&eacute;lioration.
+    </p>
+
+    <section class="project-hero-grid">
+      <article class="card project-text-card">
+        <h2>Contexte du projet</h2>
+        <p>
+          Cette SA&Eacute; avait pour objectif d&apos;&eacute;tablir des pr&eacute;visions &agrave; partir d&apos;une s&eacute;rie chronologique pr&eacute;sentant
+          une composante saisonni&egrave;re. Le projet consistait &agrave; choisir une s&eacute;rie issue d&apos;une base de donn&eacute;es
+          officielle, &agrave; analyser sa structure et &agrave; identifier la pr&eacute;sence d&apos;une tendance et d&apos;une saisonnalit&eacute;.
+        </p>
+        <p>
+          Dans une premi&egrave;re partie, nous devions corriger la s&eacute;rie des variations saisonni&egrave;res, analyser la
+          tendance et produire des pr&eacute;visions selon deux m&eacute;thodes diff&eacute;rentes : l&apos;ajustement par la m&eacute;thode
+          des moindres carr&eacute;s et le lissage exponentiel. Il fallait justifier les choix m&eacute;thodologiques et
+          interpr&eacute;ter les r&eacute;sultats obtenus.
+        </p>
+        <p>
+          Dans une seconde partie, nous avons &eacute;tudi&eacute; un mod&egrave;le ARIMA en reproduisant une analyse existante tout
+          en montrant notre compr&eacute;hension des concepts de stationnarit&eacute;, diff&eacute;renciation et identification des
+          param&egrave;tres. Cette SA&Eacute; nous a permis d&apos;approfondir notre compr&eacute;hension des m&eacute;thodes de pr&eacute;vision
+          et des enjeux li&eacute;s &agrave; la mod&eacute;lisation temporelle.
+        </p>
+      </article>
+      <article class="card project-visual-card">
+        <img src="images/image5.png" alt="Graphique de prevision temporelle sur donnees ouvertes de mobilite" />
+      </article>
+    </section>
+
+    <section class="project-tech">
+      <h2>Comp&eacute;tences mobilis&eacute;es</h2>
+      <ul class="chips">
+        <li>Open Data</li>
+        <li>Data cleaning</li>
+        <li>Visualisation</li>
+        <li>Restitution analytique</li>
+      </ul>
+    </section>
+
+    <section class="card project-review">
+      <h2>Bilan du projet</h2>
+      <h3>Points forts</h3>
+      <ul>
+        <li>Bonne capacit&eacute; &agrave; exploiter des donn&eacute;es ouvertes et &agrave; les nettoyer.</li>
+        <li>Progression dans l&apos;analyse de s&eacute;ries temporelles et l&apos;identification de tendances.</li>
+        <li>Capacit&eacute; &agrave; relier les r&eacute;sultats &agrave; une probl&eacute;matique concr&egrave;te de mobilit&eacute;.</li>
+      </ul>
+      <h3>Points faibles</h3>
+      <ul>
+        <li>Pr&eacute;paration des donn&eacute;es parfois longue &agrave; cause de formats h&eacute;t&eacute;rog&egrave;nes.</li>
+        <li>Besoin de mieux comparer les m&eacute;thodes de pr&eacute;vision utilis&eacute;es.</li>
+      </ul>
+      <h3>Marges de progression</h3>
+      <ul>
+        <li>Automatiser davantage le nettoyage pour rendre l&apos;analyse plus reproductible.</li>
+        <li>Structurer les donn&eacute;es dans PostgreSQL et utiliser des sous-requ&ecirc;tes pour faciliter les comparaisons.</li>
+        <li>Approfondir les mod&egrave;les de pr&eacute;vision et la validation des performances.</li>
+      </ul>
+    </section>
+
+    <p class="project-back-wrap">
+      <a class="btn" href="projets.html">Retour aux projets</a>
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Sofiane AIT MOHAMED</p>
+  </footer>
+  <script src="theme-toggle.js"></script>
+</body>
+</html>
